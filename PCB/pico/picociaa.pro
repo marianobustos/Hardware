@@ -1,4 +1,4 @@
-update=Fri 03 Jun 2016 04:24:13 PM ART
+update=12/03/2017 08:26:35 p.m.
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,16 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
+[schematic_editor]
 version=1
+PageLayoutDescrFile=sheet_layout.kicad_wks
+PlotDirectoryName=doc/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
 LibDir=
@@ -69,13 +77,5 @@ LibName37=components/SMD_Sealing_Glass_Crystal
 LibName38=components/led_arbg
 LibName39=components/sw_push4
 LibName40=components/logo
-[schematic_editor]
+[general]
 version=1
-PageLayoutDescrFile=sheet_layout.kicad_wks
-PlotDirectoryName=doc/
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60

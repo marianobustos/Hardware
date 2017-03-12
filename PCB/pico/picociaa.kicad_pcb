@@ -1,15 +1,15 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.2+e4-6225~38~ubuntu14.04.1-stable)
+(kicad_pcb (version 4) (host pcbnew 4.0.5)
 
   (general
     (links 207)
     (no_connects 0)
-    (area 45.664287 95.1 101.905029 135.541819)
+    (area 48.999999 99.949999 100.050001 130.050001)
     (thickness 1.6)
     (drawings 55)
     (tracks 958)
     (zones 0)
     (modules 67)
-    (nets 90)
+    (nets 148)
   )
 
   (page A4)
@@ -65,7 +65,7 @@
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
     (grid_origin 49.2 130.05)
-    (visible_elements FFFEFF7F)
+    (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x010f0_80000001)
       (usegerberextensions false)
@@ -183,6 +183,64 @@
   (net 87 "/Target CPU/SWO/TDO")
   (net 88 /Debugger/TGT_TXD)
   (net 89 /VBUS)
+  (net 90 "Net-(J1-Pad1)")
+  (net 91 "Net-(J1-Pad3)")
+  (net 92 "Net-(J1-Pad5)")
+  (net 93 "Net-(J1-Pad7)")
+  (net 94 "Net-(J1-Pad11)")
+  (net 95 "Net-(J1-Pad13)")
+  (net 96 "Net-(J1-Pad17)")
+  (net 97 "Net-(J1-Pad6)")
+  (net 98 "Net-(J1-Pad8)")
+  (net 99 "Net-(J1-Pad10)")
+  (net 100 "Net-(J1-Pad12)")
+  (net 101 "Net-(J1-Pad14)")
+  (net 102 "Net-(J1-Pad16)")
+  (net 103 "Net-(J1-Pad19)")
+  (net 104 "Net-(J1-Pad23)")
+  (net 105 "Net-(J1-Pad25)")
+  (net 106 "Net-(J1-Pad31)")
+  (net 107 "Net-(J1-Pad33)")
+  (net 108 "Net-(J1-Pad37)")
+  (net 109 "Net-(J1-Pad39)")
+  (net 110 "Net-(J1-Pad41)")
+  (net 111 "Net-(J1-Pad43)")
+  (net 112 "Net-(J1-Pad45)")
+  (net 113 "Net-(J1-Pad47)")
+  (net 114 "Net-(J1-Pad49)")
+  (net 115 "Net-(J1-Pad51)")
+  (net 116 "Net-(J1-Pad20)")
+  (net 117 "Net-(J1-Pad22)")
+  (net 118 "Net-(J1-Pad24)")
+  (net 119 "Net-(J1-Pad28)")
+  (net 120 "Net-(J1-Pad30)")
+  (net 121 "Net-(J1-Pad32)")
+  (net 122 "Net-(J1-Pad42)")
+  (net 123 "Net-(J1-Pad44)")
+  (net 124 "Net-(J1-Pad46)")
+  (net 125 "Net-(J1-Pad48)")
+  (net 126 "Net-(U2-Pad1)")
+  (net 127 "Net-(U2-Pad2)")
+  (net 128 "Net-(U2-Pad9)")
+  (net 129 "Net-(U2-Pad11)")
+  (net 130 "Net-(U2-Pad12)")
+  (net 131 "Net-(U2-Pad13)")
+  (net 132 "Net-(U2-Pad17)")
+  (net 133 "Net-(U2-Pad18)")
+  (net 134 "Net-(U2-Pad24)")
+  (net 135 "Net-(U2-Pad25)")
+  (net 136 "Net-(U2-Pad26)")
+  (net 137 "Net-(U2-Pad30)")
+  (net 138 "Net-(U2-Pad31)")
+  (net 139 "Net-(U2-Pad33)")
+  (net 140 "Net-(U2-Pad34)")
+  (net 141 "Net-(U2-Pad35)")
+  (net 142 "Net-(U2-Pad38)")
+  (net 143 "Net-(U2-Pad40)")
+  (net 144 "Net-(U2-Pad42)")
+  (net 145 "Net-(U2-Pad43)")
+  (net 146 /Debugger/TGT_TDI)
+  (net 147 "Net-(U2-Pad48)")
 
   (net_class Default "This is the default net class."
     (clearance 0.1524)
@@ -203,6 +261,7 @@
     (add_net /Debugger/PIO1_13)
     (add_net /Debugger/PIO1_14)
     (add_net /Debugger/PIO1_24)
+    (add_net /Debugger/TGT_TDI)
     (add_net /Debugger/TGT_TXD)
     (add_net /Debugger/TGT_~RESET~)
     (add_net /Debugger/USB_N)
@@ -269,7 +328,43 @@
     (add_net "Net-(C7-Pad1)")
     (add_net "Net-(D1-Pad2)")
     (add_net "Net-(GS2-Pad1)")
+    (add_net "Net-(J1-Pad1)")
+    (add_net "Net-(J1-Pad10)")
+    (add_net "Net-(J1-Pad11)")
+    (add_net "Net-(J1-Pad12)")
+    (add_net "Net-(J1-Pad13)")
+    (add_net "Net-(J1-Pad14)")
+    (add_net "Net-(J1-Pad16)")
+    (add_net "Net-(J1-Pad17)")
+    (add_net "Net-(J1-Pad19)")
     (add_net "Net-(J1-Pad2)")
+    (add_net "Net-(J1-Pad20)")
+    (add_net "Net-(J1-Pad22)")
+    (add_net "Net-(J1-Pad23)")
+    (add_net "Net-(J1-Pad24)")
+    (add_net "Net-(J1-Pad25)")
+    (add_net "Net-(J1-Pad28)")
+    (add_net "Net-(J1-Pad3)")
+    (add_net "Net-(J1-Pad30)")
+    (add_net "Net-(J1-Pad31)")
+    (add_net "Net-(J1-Pad32)")
+    (add_net "Net-(J1-Pad33)")
+    (add_net "Net-(J1-Pad37)")
+    (add_net "Net-(J1-Pad39)")
+    (add_net "Net-(J1-Pad41)")
+    (add_net "Net-(J1-Pad42)")
+    (add_net "Net-(J1-Pad43)")
+    (add_net "Net-(J1-Pad44)")
+    (add_net "Net-(J1-Pad45)")
+    (add_net "Net-(J1-Pad46)")
+    (add_net "Net-(J1-Pad47)")
+    (add_net "Net-(J1-Pad48)")
+    (add_net "Net-(J1-Pad49)")
+    (add_net "Net-(J1-Pad5)")
+    (add_net "Net-(J1-Pad51)")
+    (add_net "Net-(J1-Pad6)")
+    (add_net "Net-(J1-Pad7)")
+    (add_net "Net-(J1-Pad8)")
     (add_net "Net-(LED1-Pad1)")
     (add_net "Net-(LED1-Pad2)")
     (add_net "Net-(LED1-Pad3)")
@@ -280,6 +375,27 @@
     (add_net "Net-(R3-Pad1)")
     (add_net "Net-(R4-Pad1)")
     (add_net "Net-(R9-Pad2)")
+    (add_net "Net-(U2-Pad1)")
+    (add_net "Net-(U2-Pad11)")
+    (add_net "Net-(U2-Pad12)")
+    (add_net "Net-(U2-Pad13)")
+    (add_net "Net-(U2-Pad17)")
+    (add_net "Net-(U2-Pad18)")
+    (add_net "Net-(U2-Pad2)")
+    (add_net "Net-(U2-Pad24)")
+    (add_net "Net-(U2-Pad25)")
+    (add_net "Net-(U2-Pad26)")
+    (add_net "Net-(U2-Pad30)")
+    (add_net "Net-(U2-Pad31)")
+    (add_net "Net-(U2-Pad33)")
+    (add_net "Net-(U2-Pad34)")
+    (add_net "Net-(U2-Pad35)")
+    (add_net "Net-(U2-Pad38)")
+    (add_net "Net-(U2-Pad40)")
+    (add_net "Net-(U2-Pad42)")
+    (add_net "Net-(U2-Pad43)")
+    (add_net "Net-(U2-Pad48)")
+    (add_net "Net-(U2-Pad9)")
   )
 
   (module Resistors_SMD:R_0603 (layer B.Cu) (tedit 565BC836) (tstamp 564E50AB)
@@ -304,7 +420,7 @@
       (net 48 "/Target CPU/P0_26"))
     (pad 2 smd rect (at 0.75 0 90) (size 0.5 0.9) (layers B.Cu B.Paste B.Mask)
       (net 3 +3V3))
-    (model Resistors_SMD.3dshapes/R_0603.wrl
+    (model F:/Hardware/PCB/pico/footprints/packages3d/R_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -333,7 +449,7 @@
       (net 51 "/Target CPU/P0_25"))
     (pad 2 smd rect (at 0.75 0 90) (size 0.5 0.9) (layers B.Cu B.Paste B.Mask)
       (net 3 +3V3))
-    (model Resistors_SMD.3dshapes/R_0603.wrl
+    (model F:/Hardware/PCB/pico/footprints/packages3d/R_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -362,7 +478,7 @@
       (net 3 +3V3))
     (pad 2 smd rect (at 0.75 0 90) (size 0.5 0.9) (layers B.Cu B.Paste B.Mask)
       (net 72 "Net-(Q1-Pad1)"))
-    (model Resistors_SMD.3dshapes/R_0603.wrl
+    (model F:/Hardware/PCB/pico/footprints/packages3d/R_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -402,6 +518,11 @@
     (pad 3 smd rect (at 5.588 3.175 270) (size 1.27 1.905) (layers B.Cu B.Paste B.Mask))
     (pad 2 smd rect (at 0 3.175 270) (size 1.27 1.905) (layers B.Cu B.Paste B.Mask)
       (net 6 "Net-(C20-Pad1)"))
+    (model F:/Hardware/PCB/pico/footprints/packages3d/SOJ-4.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_Reflow (layer B.Cu) (tedit 565B7D8B) (tstamp 564E4EF1)
@@ -426,7 +547,7 @@
       (net 1 GND))
     (pad 1 smd rect (at -1.31 0 180) (size 1.8 1.23) (layers B.Cu B.Paste B.Mask)
       (net 81 /Reg_3.3V))
-    (model Capacitors_Tantalum_SMD.3dshapes/TantalC_SizeA_EIA-3216_Reflow.wrl
+    (model F:/Hardware/PCB/pico/footprints/packages3d/C_Tantalio_CaseA.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -455,7 +576,7 @@
       (net 82 /Debugger/TGT_~RESET~))
     (pad 2 smd rect (at 0.75 0 270) (size 0.8 0.75) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_0603.wrl
+    (model F:/Hardware/PCB/pico/footprints/packages3d/C_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -484,7 +605,7 @@
       (net 3 +3V3))
     (pad 2 smd rect (at 0.75 0) (size 0.8 0.75) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_0603.wrl
+    (model F:/Hardware/PCB/pico/footprints/packages3d/C_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -513,7 +634,7 @@
       (net 4 "Net-(C6-Pad1)"))
     (pad 2 smd rect (at 0.75 0 90) (size 0.8 0.75) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_0603.wrl
+    (model F:/Hardware/PCB/pico/footprints/packages3d/C_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -542,7 +663,7 @@
       (net 5 "Net-(C7-Pad1)"))
     (pad 2 smd rect (at 0.75 0 90) (size 0.8 0.75) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_0603.wrl
+    (model F:/Hardware/PCB/pico/footprints/packages3d/C_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -571,7 +692,7 @@
       (net 3 +3V3))
     (pad 2 smd rect (at 0.75 0 270) (size 0.8 0.75) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_0603.wrl
+    (model F:/Hardware/PCB/pico/footprints/packages3d/C_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -600,7 +721,7 @@
       (net 3 +3V3))
     (pad 2 smd rect (at 0.75 0 270) (size 0.8 0.75) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_0603.wrl
+    (model F:/Hardware/PCB/pico/footprints/packages3d/C_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -629,7 +750,7 @@
       (net 6 "Net-(C20-Pad1)"))
     (pad 2 smd rect (at 0.75 0 270) (size 0.8 0.75) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_0603.wrl
+    (model F:/Hardware/PCB/pico/footprints/packages3d/C_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -658,7 +779,7 @@
       (net 7 "Net-(C21-Pad1)"))
     (pad 2 smd rect (at 0.75 0) (size 0.8 0.75) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_0603.wrl
+    (model F:/Hardware/PCB/pico/footprints/packages3d/C_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -687,7 +808,7 @@
       (net 8 "Net-(C22-Pad1)"))
     (pad 2 smd rect (at 0.75 0 180) (size 0.8 0.75) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_0603.wrl
+    (model F:/Hardware/PCB/pico/footprints/packages3d/C_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -716,7 +837,7 @@
       (net 8 "Net-(C22-Pad1)"))
     (pad 2 smd rect (at 0.75 0 180) (size 0.8 0.75) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_0603.wrl
+    (model F:/Hardware/PCB/pico/footprints/packages3d/C_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -745,7 +866,7 @@
       (net 3 +3V3))
     (pad 2 smd rect (at 0.75 0 90) (size 0.8 0.75) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_0603.wrl
+    (model F:/Hardware/PCB/pico/footprints/packages3d/C_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -774,7 +895,7 @@
       (net 3 +3V3))
     (pad 2 smd rect (at 0.75 0 270) (size 0.8 0.75) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_0603.wrl
+    (model F:/Hardware/PCB/pico/footprints/packages3d/C_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -803,7 +924,7 @@
       (net 3 +3V3))
     (pad 2 smd rect (at 0.75 0 270) (size 0.8 0.75) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_0603.wrl
+    (model F:/Hardware/PCB/pico/footprints/packages3d/C_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -832,7 +953,7 @@
       (net 3 +3V3))
     (pad 2 smd rect (at 0.75 0) (size 0.8 0.75) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_0603.wrl
+    (model F:/Hardware/PCB/pico/footprints/packages3d/C_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -861,7 +982,7 @@
       (net 9 /CHASSIS))
     (pad 2 smd rect (at 0.75 0) (size 0.5 0.9) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
-    (model Resistors_SMD.3dshapes/R_0603.wrl
+    (model F:/Hardware/PCB/pico/footprints/packages3d/R_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -890,7 +1011,7 @@
       (net 8 "Net-(C22-Pad1)"))
     (pad 2 smd rect (at 0.75 0 180) (size 0.5 0.9) (layers B.Cu B.Paste B.Mask)
       (net 3 +3V3))
-    (model Resistors_SMD.3dshapes/R_0603.wrl
+    (model F:/Hardware/PCB/pico/footprints/packages3d/R_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -928,89 +1049,89 @@
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad 1 smd rect (at 0 -7.95) (size 2.3 0.6) (layers F.Cu F.Paste F.Mask)
-      (solder_mask_margin 0.1) (clearance 0.1))
+      (net 90 "Net-(J1-Pad1)") (solder_mask_margin 0.1) (clearance 0.1))
     (pad 3 smd rect (at 0 -7.15) (size 2.3 0.6) (layers F.Cu F.Paste F.Mask)
-      (solder_mask_margin 0.1) (clearance 0.1))
+      (net 91 "Net-(J1-Pad3)") (solder_mask_margin 0.1) (clearance 0.1))
     (pad 5 smd rect (at 0 -6.35) (size 2.3 0.6) (layers F.Cu F.Paste F.Mask)
-      (solder_mask_margin 0.1) (clearance 0.1))
+      (net 92 "Net-(J1-Pad5)") (solder_mask_margin 0.1) (clearance 0.1))
     (pad 7 smd rect (at 0 -5.55) (size 2.3 0.6) (layers F.Cu F.Paste F.Mask)
-      (solder_mask_margin 0.1) (clearance 0.1))
+      (net 93 "Net-(J1-Pad7)") (solder_mask_margin 0.1) (clearance 0.1))
     (pad 9 smd rect (at 0 -4.75) (size 2.3 0.6) (layers F.Cu F.Paste F.Mask)
       (net 1 GND) (solder_mask_margin 0.1) (clearance 0.1))
     (pad 11 smd rect (at 0 -3.95) (size 2.3 0.6) (layers F.Cu F.Paste F.Mask)
-      (solder_mask_margin 0.1) (clearance 0.1))
+      (net 94 "Net-(J1-Pad11)") (solder_mask_margin 0.1) (clearance 0.1))
     (pad 13 smd rect (at 0 -3.15) (size 2.3 0.6) (layers F.Cu F.Paste F.Mask)
-      (solder_mask_margin 0.1) (clearance 0.1))
+      (net 95 "Net-(J1-Pad13)") (solder_mask_margin 0.1) (clearance 0.1))
     (pad 15 smd rect (at 0 -2.35) (size 2.3 0.6) (layers F.Cu F.Paste F.Mask)
       (net 1 GND) (solder_mask_margin 0.1) (clearance 0.1))
     (pad 2 smd rect (at 0 -7.55) (size 2.3 0.6) (layers B.Cu B.Paste B.Mask)
       (net 11 "Net-(J1-Pad2)") (solder_mask_margin 0.1) (clearance 0.1))
     (pad 17 smd rect (at 0 1.65) (size 2.3 0.6) (layers F.Cu F.Paste F.Mask)
-      (solder_mask_margin 0.1) (clearance 0.1))
+      (net 96 "Net-(J1-Pad17)") (solder_mask_margin 0.1) (clearance 0.1))
     (pad 4 smd rect (at 0 -6.75) (size 2.3 0.6) (layers B.Cu B.Paste B.Mask)
       (net 1 GND) (solder_mask_margin 0.1) (clearance 0.1))
     (pad 6 smd rect (at 0 -5.95) (size 2.3 0.6) (layers B.Cu B.Paste B.Mask)
-      (solder_mask_margin 0.1) (clearance 0.1))
+      (net 97 "Net-(J1-Pad6)") (solder_mask_margin 0.1) (clearance 0.1))
     (pad 8 smd rect (at 0 -5.15) (size 2.3 0.6) (layers B.Cu B.Paste B.Mask)
-      (solder_mask_margin 0.1) (clearance 0.1))
+      (net 98 "Net-(J1-Pad8)") (solder_mask_margin 0.1) (clearance 0.1))
     (pad 10 smd rect (at 0 -4.35) (size 2.3 0.6) (layers B.Cu B.Paste B.Mask)
-      (solder_mask_margin 0.1) (clearance 0.1))
+      (net 99 "Net-(J1-Pad10)") (solder_mask_margin 0.1) (clearance 0.1))
     (pad 12 smd rect (at 0 -3.55) (size 2.3 0.6) (layers B.Cu B.Paste B.Mask)
-      (solder_mask_margin 0.1) (clearance 0.1))
+      (net 100 "Net-(J1-Pad12)") (solder_mask_margin 0.1) (clearance 0.1))
     (pad 14 smd rect (at 0 -2.75) (size 2.3 0.6) (layers B.Cu B.Paste B.Mask)
-      (solder_mask_margin 0.1) (clearance 0.1))
+      (net 101 "Net-(J1-Pad14)") (solder_mask_margin 0.1) (clearance 0.1))
     (pad 16 smd rect (at 0 -1.95) (size 2.3 0.6) (layers B.Cu B.Paste B.Mask)
-      (solder_mask_margin 0.1) (clearance 0.1))
+      (net 102 "Net-(J1-Pad16)") (solder_mask_margin 0.1) (clearance 0.1))
     (pad 19 smd rect (at 0 2.45) (size 2.3 0.6) (layers F.Cu F.Paste F.Mask)
-      (solder_mask_margin 0.1) (clearance 0.1))
+      (net 103 "Net-(J1-Pad19)") (solder_mask_margin 0.1) (clearance 0.1))
     (pad 21 smd rect (at 0 3.25) (size 2.3 0.6) (layers F.Cu F.Paste F.Mask)
       (net 1 GND) (solder_mask_margin 0.1) (clearance 0.1))
     (pad 23 smd rect (at 0 4.05) (size 2.3 0.6) (layers F.Cu F.Paste F.Mask)
-      (solder_mask_margin 0.1) (clearance 0.1))
+      (net 104 "Net-(J1-Pad23)") (solder_mask_margin 0.1) (clearance 0.1))
     (pad 25 smd rect (at 0 4.85) (size 2.3 0.6) (layers F.Cu F.Paste F.Mask)
-      (solder_mask_margin 0.1) (clearance 0.1))
+      (net 105 "Net-(J1-Pad25)") (solder_mask_margin 0.1) (clearance 0.1))
     (pad 27 smd rect (at 0 5.65) (size 2.3 0.6) (layers F.Cu F.Paste F.Mask)
       (net 1 GND) (solder_mask_margin 0.1) (clearance 0.1))
     (pad 29 smd rect (at 0 6.45) (size 2.3 0.6) (layers F.Cu F.Paste F.Mask)
       (net 1 GND) (solder_mask_margin 0.1) (clearance 0.1))
     (pad 31 smd rect (at 0 7.25) (size 2.3 0.6) (layers F.Cu F.Paste F.Mask)
-      (solder_mask_margin 0.1) (clearance 0.1))
+      (net 106 "Net-(J1-Pad31)") (solder_mask_margin 0.1) (clearance 0.1))
     (pad 33 smd rect (at 0 8.05) (size 2.3 0.6) (layers F.Cu F.Paste F.Mask)
-      (solder_mask_margin 0.1) (clearance 0.1))
+      (net 107 "Net-(J1-Pad33)") (solder_mask_margin 0.1) (clearance 0.1))
     (pad 35 smd rect (at 0 8.85) (size 2.3 0.6) (layers F.Cu F.Paste F.Mask)
       (net 1 GND) (solder_mask_margin 0.1) (clearance 0.1))
     (pad 37 smd rect (at 0 9.65) (size 2.3 0.6) (layers F.Cu F.Paste F.Mask)
-      (solder_mask_margin 0.1) (clearance 0.1))
+      (net 108 "Net-(J1-Pad37)") (solder_mask_margin 0.1) (clearance 0.1))
     (pad 39 smd rect (at 0 10.45) (size 2.3 0.6) (layers F.Cu F.Paste F.Mask)
-      (solder_mask_margin 0.1) (clearance 0.1))
+      (net 109 "Net-(J1-Pad39)") (solder_mask_margin 0.1) (clearance 0.1))
     (pad 41 smd rect (at 0 11.25) (size 2.3 0.6) (layers F.Cu F.Paste F.Mask)
-      (solder_mask_margin 0.1) (clearance 0.1))
+      (net 110 "Net-(J1-Pad41)") (solder_mask_margin 0.1) (clearance 0.1))
     (pad 43 smd rect (at 0 12.05) (size 2.3 0.6) (layers F.Cu F.Paste F.Mask)
-      (solder_mask_margin 0.1) (clearance 0.1))
+      (net 111 "Net-(J1-Pad43)") (solder_mask_margin 0.1) (clearance 0.1))
     (pad 45 smd rect (at 0 12.85) (size 2.3 0.6) (layers F.Cu F.Paste F.Mask)
-      (solder_mask_margin 0.1) (clearance 0.1))
+      (net 112 "Net-(J1-Pad45)") (solder_mask_margin 0.1) (clearance 0.1))
     (pad 47 smd rect (at 0 13.65) (size 2.3 0.6) (layers F.Cu F.Paste F.Mask)
-      (solder_mask_margin 0.1) (clearance 0.1))
+      (net 113 "Net-(J1-Pad47)") (solder_mask_margin 0.1) (clearance 0.1))
     (pad 49 smd rect (at 0 14.45) (size 2.3 0.6) (layers F.Cu F.Paste F.Mask)
-      (solder_mask_margin 0.1) (clearance 0.1))
+      (net 114 "Net-(J1-Pad49)") (solder_mask_margin 0.1) (clearance 0.1))
     (pad 51 smd rect (at 0 15.25) (size 2.3 0.6) (layers F.Cu F.Paste F.Mask)
-      (solder_mask_margin 0.1) (clearance 0.1))
+      (net 115 "Net-(J1-Pad51)") (solder_mask_margin 0.1) (clearance 0.1))
     (pad 18 smd rect (at 0 2.05) (size 2.3 0.6) (layers B.Cu B.Paste B.Mask)
       (net 1 GND) (solder_mask_margin 0.1) (clearance 0.1))
     (pad 20 smd rect (at 0 2.85) (size 2.3 0.6) (layers B.Cu B.Paste B.Mask)
-      (solder_mask_margin 0.1) (clearance 0.1))
+      (net 116 "Net-(J1-Pad20)") (solder_mask_margin 0.1) (clearance 0.1))
     (pad 22 smd rect (at 0 3.65) (size 2.3 0.6) (layers B.Cu B.Paste B.Mask)
-      (solder_mask_margin 0.1) (clearance 0.1))
+      (net 117 "Net-(J1-Pad22)") (solder_mask_margin 0.1) (clearance 0.1))
     (pad 24 smd rect (at 0 4.45) (size 2.3 0.6) (layers B.Cu B.Paste B.Mask)
-      (solder_mask_margin 0.1) (clearance 0.1))
+      (net 118 "Net-(J1-Pad24)") (solder_mask_margin 0.1) (clearance 0.1))
     (pad 26 smd rect (at 0 5.25) (size 2.3 0.6) (layers B.Cu B.Paste B.Mask)
       (net 1 GND) (solder_mask_margin 0.1) (clearance 0.1))
     (pad 28 smd rect (at 0 6.05) (size 2.3 0.6) (layers B.Cu B.Paste B.Mask)
-      (solder_mask_margin 0.1) (clearance 0.1))
+      (net 119 "Net-(J1-Pad28)") (solder_mask_margin 0.1) (clearance 0.1))
     (pad 30 smd rect (at 0 6.85) (size 2.3 0.6) (layers B.Cu B.Paste B.Mask)
-      (solder_mask_margin 0.1) (clearance 0.1))
+      (net 120 "Net-(J1-Pad30)") (solder_mask_margin 0.1) (clearance 0.1))
     (pad 32 smd rect (at 0 7.65) (size 2.3 0.6) (layers B.Cu B.Paste B.Mask)
-      (solder_mask_margin 0.1) (clearance 0.1))
+      (net 121 "Net-(J1-Pad32)") (solder_mask_margin 0.1) (clearance 0.1))
     (pad 34 smd rect (at 0 8.45) (size 2.3 0.6) (layers B.Cu B.Paste B.Mask)
       (net 1 GND) (solder_mask_margin 0.1) (clearance 0.1))
     (pad 36 smd rect (at 0 9.25) (size 2.3 0.6) (layers B.Cu B.Paste B.Mask)
@@ -1020,13 +1141,13 @@
     (pad 40 smd rect (at 0 10.85) (size 2.3 0.6) (layers B.Cu B.Paste B.Mask)
       (net 1 GND) (solder_mask_margin 0.1) (clearance 0.1))
     (pad 42 smd rect (at 0 11.65) (size 2.3 0.6) (layers B.Cu B.Paste B.Mask)
-      (solder_mask_margin 0.1) (clearance 0.1))
+      (net 122 "Net-(J1-Pad42)") (solder_mask_margin 0.1) (clearance 0.1))
     (pad 44 smd rect (at 0 12.45) (size 2.3 0.6) (layers B.Cu B.Paste B.Mask)
-      (solder_mask_margin 0.1) (clearance 0.1))
+      (net 123 "Net-(J1-Pad44)") (solder_mask_margin 0.1) (clearance 0.1))
     (pad 46 smd rect (at 0 13.25) (size 2.3 0.6) (layers B.Cu B.Paste B.Mask)
-      (solder_mask_margin 0.1) (clearance 0.1))
+      (net 124 "Net-(J1-Pad46)") (solder_mask_margin 0.1) (clearance 0.1))
     (pad 48 smd rect (at 0 14.05) (size 2.3 0.6) (layers B.Cu B.Paste B.Mask)
-      (solder_mask_margin 0.1) (clearance 0.1))
+      (net 125 "Net-(J1-Pad48)") (solder_mask_margin 0.1) (clearance 0.1))
     (pad 50 smd rect (at 0 14.85) (size 2.3 0.6) (layers B.Cu B.Paste B.Mask)
       (net 1 GND) (solder_mask_margin 0.1) (clearance 0.1))
     (pad 52 smd rect (at 0 15.65) (size 2.3 0.6) (layers B.Cu B.Paste B.Mask)
@@ -1055,6 +1176,11 @@
       (net 15 "Net-(LED1-Pad1)"))
     (pad 4 smd rect (at 0.7 0.6) (size 1 0.7) (layers F.Cu F.Paste F.Mask)
       (net 10 "Net-(GS2-Pad1)"))
+    (model F:/Hardware/PCB/pico/footprints/packages3d/LED-4SMD.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.8 0.9 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module MicroUSB-ZX62AB:USB_microAB_ZX62-AB&B-5PA-11 (layer F.Cu) (tedit 57616756) (tstamp 564E500D)
@@ -1096,6 +1222,11 @@
       (net 9 /CHASSIS))
     (pad 9 smd rect (at 1.15062 2.64922) (size 1.80086 1.89992) (layers F.Cu F.Paste F.Mask)
       (net 9 /CHASSIS))
+    (model F:/Hardware/PCB/pico/footprints/packages3d/MicroUSB-SMD.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 565B7C69) (tstamp 564E5045)
@@ -1120,7 +1251,7 @@
       (net 52 "Net-(R1-Pad1)"))
     (pad 2 smd rect (at 0.75 0 90) (size 0.5 0.9) (layers F.Cu F.Paste F.Mask)
       (net 82 /Debugger/TGT_~RESET~))
-    (model Resistors_SMD.3dshapes/R_0603.wrl
+    (model F:/Hardware/PCB/pico/footprints/packages3d/R_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1149,7 +1280,7 @@
       (net 3 +3V3))
     (pad 2 smd rect (at 0.75 0 270) (size 0.5 0.9) (layers F.Cu F.Paste F.Mask)
       (net 82 /Debugger/TGT_~RESET~))
-    (model Resistors_SMD.3dshapes/R_0603.wrl
+    (model F:/Hardware/PCB/pico/footprints/packages3d/R_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1178,7 +1309,7 @@
       (net 3 +3V3))
     (pad 2 smd rect (at 0.75 0 180) (size 0.5 0.9) (layers B.Cu B.Paste B.Mask)
       (net 2 "/Target CPU/P0_24"))
-    (model Resistors_SMD.3dshapes/R_0603.wrl
+    (model F:/Hardware/PCB/pico/footprints/packages3d/R_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1207,7 +1338,7 @@
       (net 14 "Net-(LED1-Pad2)"))
     (pad 2 smd rect (at 0.75 0 90) (size 0.5 0.9) (layers F.Cu F.Paste F.Mask)
       (net 54 "/Target CPU/P0_29"))
-    (model Resistors_SMD.3dshapes/R_0603.wrl
+    (model F:/Hardware/PCB/pico/footprints/packages3d/R_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1236,7 +1367,7 @@
       (net 13 "Net-(LED1-Pad3)"))
     (pad 2 smd rect (at 0.75 0 90) (size 0.5 0.9) (layers F.Cu F.Paste F.Mask)
       (net 55 "/Target CPU/P0_30"))
-    (model Resistors_SMD.3dshapes/R_0603.wrl
+    (model F:/Hardware/PCB/pico/footprints/packages3d/R_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1265,7 +1396,7 @@
       (net 15 "Net-(LED1-Pad1)"))
     (pad 2 smd rect (at 0.75 0 90) (size 0.5 0.9) (layers F.Cu F.Paste F.Mask)
       (net 53 "/Target CPU/P0_31"))
-    (model Resistors_SMD.3dshapes/R_0603.wrl
+    (model F:/Hardware/PCB/pico/footprints/packages3d/R_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1294,7 +1425,7 @@
       (net 61 /Debugger/USB_P))
     (pad 2 smd rect (at 0.75 0 90) (size 0.5 0.9) (layers F.Cu F.Paste F.Mask)
       (net 76 "Net-(R9-Pad2)"))
-    (model Resistors_SMD.3dshapes/R_0603.wrl
+    (model F:/Hardware/PCB/pico/footprints/packages3d/R_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1323,7 +1454,7 @@
       (net 60 /Debugger/USB_N))
     (pad 2 smd rect (at 0.75 0 90) (size 0.5 0.9) (layers F.Cu F.Paste F.Mask)
       (net 77 "Net-(R10-Pad2)"))
-    (model Resistors_SMD.3dshapes/R_0603.wrl
+    (model F:/Hardware/PCB/pico/footprints/packages3d/R_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1352,7 +1483,7 @@
       (net 61 /Debugger/USB_P))
     (pad 2 smd rect (at 0.75 0) (size 0.5 0.9) (layers B.Cu B.Paste B.Mask)
       (net 73 "Net-(Q1-Pad3)"))
-    (model Resistors_SMD.3dshapes/R_0603.wrl
+    (model F:/Hardware/PCB/pico/footprints/packages3d/R_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1381,7 +1512,7 @@
       (net 72 "Net-(Q1-Pad1)"))
     (pad 2 smd rect (at 0.75 0 180) (size 0.5 0.9) (layers B.Cu B.Paste B.Mask)
       (net 59 /Debugger/~USB_CONNECT~))
-    (model Resistors_SMD.3dshapes/R_0603.wrl
+    (model F:/Hardware/PCB/pico/footprints/packages3d/R_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1410,7 +1541,7 @@
       (net 72 "Net-(Q1-Pad1)"))
     (pad 2 smd rect (at 0.75 0 270) (size 0.5 0.9) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model Resistors_SMD.3dshapes/R_0603.wrl
+    (model F:/Hardware/PCB/pico/footprints/packages3d/R_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1439,7 +1570,7 @@
       (net 3 +3V3))
     (pad 2 smd rect (at 0.75 0) (size 0.5 0.9) (layers F.Cu F.Paste F.Mask)
       (net 58 "Net-(D1-Pad2)"))
-    (model Resistors_SMD.3dshapes/R_0603.wrl
+    (model F:/Hardware/PCB/pico/footprints/packages3d/R_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1628,7 +1759,7 @@
       (net 44 "/Target CPU/P0_22"))
     (pad 64 smd rect (at -3.75 -5.7 180) (size 1.5 0.3) (layers F.Cu F.Paste F.Mask)
       (net 82 /Debugger/TGT_~RESET~))
-    (model Housings_QFP.3dshapes/TQFP-64_10x10mm_Pitch0.5mm.wrl
+    (model F:/Hardware/PCB/pico/footprints/packages3d/TQFP-64_0.5mm.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1686,6 +1817,11 @@
       (net 1 GND))
     (pad 3 smd rect (at 1.85 1.55 180) (size 1 0.9) (layers B.Cu B.Paste B.Mask)
       (net 4 "Net-(C6-Pad1)"))
+    (model F:/Hardware/PCB/pico/footprints/packages3d/OSC_2.5X2.0.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module footprints:PIN_ARRAY_1 locked (layer F.Cu) (tedit 564E545B) (tstamp 564E5978)
@@ -1748,7 +1884,7 @@
       (net 57 "Net-(C28-Pad1)"))
     (pad 2 smd rect (at 0.75 0) (size 0.8 0.75) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_0603.wrl
+    (model F:/Hardware/PCB/pico/footprints/packages3d/C_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1825,6 +1961,11 @@
       (net 1 GND))
     (pad 2 smd rect (at 4.60243 0.00232 180) (size 2.18 1.6) (layers F.Cu F.Paste F.Mask)
       (net 52 "Net-(R1-Pad1)"))
+    (model F:/Hardware/PCB/pico/footprints/packages3d/Tact_Switch_SMD.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Capacitors_SMD:C_0603 (layer B.Cu) (tedit 5415D631) (tstamp 570814D5)
@@ -1849,7 +1990,7 @@
       (net 3 +3V3))
     (pad 2 smd rect (at 0.75 0) (size 0.8 0.75) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_0603.wrl
+    (model F:/Hardware/PCB/pico/footprints/packages3d/C_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1883,7 +2024,7 @@
       (net 58 "Net-(D1-Pad2)"))
     (pad 1 smd rect (at -0.7493 0 180) (size 0.79756 0.79756) (layers F.Cu F.Paste F.Mask)
       (net 59 /Debugger/~USB_CONNECT~))
-    (model LEDs.3dshapes/LED_0603.wrl
+    (model F:/Hardware/PCB/pico/footprints/packages3d/Led_0603_Blanco.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -1942,7 +2083,7 @@
       (net 49 "/Target CPU/P1_17"))
     (pad 14 thru_hole circle (at 2 12) (size 1.35 1.35) (drill 0.8) (layers *.Cu *.Mask)
       (net 47 "/Target CPU/P1_16"))
-    (model Pin_Headers.3dshapes/Pin_Header_Straight_2x07_Pitch2.00mm.wrl
+    (model F:/Hardware/PCB/pico/footprints/packages3d/Pin_Header_2x7_2mm.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1974,7 +2115,7 @@
       (net 3 +3V3))
     (pad 2 thru_hole circle (at 0 2 270) (size 1.35 1.35) (drill 0.8) (layers *.Cu *.Mask)
       (net 1 GND))
-    (model Pin_Headers.3dshapes/Pin_Header_Straight_1x02_Pitch2.00mm.wrl
+    (model F:/Hardware/PCB/pico/footprints/packages3d/Pin_Header_1x2_2mm.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2025,7 +2166,7 @@
       (net 48 "/Target CPU/P0_26"))
     (pad 10 thru_hole circle (at 2 8 90) (size 1.35 1.35) (drill 0.8) (layers *.Cu *.Mask)
       (net 53 "/Target CPU/P0_31"))
-    (model Pin_Headers.3dshapes/Pin_Header_Straight_2x05_Pitch2.00mm.wrl
+    (model F:/Hardware/PCB/pico/footprints/packages3d/Pin_Header_2x5_2mm.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2065,7 +2206,7 @@
       (net 86 /Debugger/DBG_~ISP~))
     (pad 6 thru_hole circle (at 0 10 90) (size 1.35 1.35) (drill 0.8) (layers *.Cu *.Mask)
       (net 1 GND))
-    (model Pin_Headers.3dshapes/Pin_Header_Straight_1x06_Pitch2.00mm.wrl
+    (model F:/Hardware/PCB/pico/footprints/packages3d/Pin_Header_1x6_2mm.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2099,7 +2240,7 @@
       (net 3 +3V3))
     (pad 3 smd rect (at 0 0.99822 270) (size 0.8001 0.8001) (layers B.Cu B.Paste B.Mask)
       (net 73 "Net-(Q1-Pad3)"))
-    (model TO_SOT_Packages_SMD.3dshapes/SOT-23.wrl
+    (model F:/Hardware/PCB/pico/footprints/packages3d/SOT-23AB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2128,7 +2269,7 @@
       (net 74 "Net-(R3-Pad1)"))
     (pad 2 smd rect (at 0.75 0) (size 0.5 0.9) (layers F.Cu F.Paste F.Mask)
       (net 82 /Debugger/TGT_~RESET~))
-    (model Resistors_SMD.3dshapes/R_0603.wrl
+    (model F:/Hardware/PCB/pico/footprints/packages3d/R_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2157,7 +2298,7 @@
       (net 75 "Net-(R4-Pad1)"))
     (pad 2 smd rect (at 0.75 0 270) (size 0.5 0.9) (layers F.Cu F.Paste F.Mask)
       (net 3 +3V3))
-    (model Resistors_SMD.3dshapes/R_0603.wrl
+    (model F:/Hardware/PCB/pico/footprints/packages3d/R_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2189,8 +2330,10 @@
     (fp_line (start 3.625 3.625) (end 3.1 3.625) (layer F.SilkS) (width 0.15))
     (fp_line (start 3.625 -3.625) (end 3.1 -3.625) (layer F.SilkS) (width 0.15))
     (fp_line (start -3.625 -3.1) (end -5 -3.1) (layer F.SilkS) (width 0.15))
-    (pad 1 smd rect (at -4.35 -2.75) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask))
-    (pad 2 smd rect (at -4.35 -2.25) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask))
+    (pad 1 smd rect (at -4.35 -2.75) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask)
+      (net 126 "Net-(U2-Pad1)"))
+    (pad 2 smd rect (at -4.35 -2.25) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask)
+      (net 127 "Net-(U2-Pad2)"))
     (pad 3 smd rect (at -4.35 -1.75) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask)
       (net 85 /Debugger/DBG_~RST~))
     (pad 4 smd rect (at -4.35 -1.25) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask)
@@ -2203,20 +2346,26 @@
       (net 5 "Net-(C7-Pad1)"))
     (pad 8 smd rect (at -4.35 0.75) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask)
       (net 3 +3V3))
-    (pad 9 smd rect (at -4.35 1.25) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask))
+    (pad 9 smd rect (at -4.35 1.25) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask)
+      (net 128 "Net-(U2-Pad9)"))
     (pad 10 smd rect (at -4.35 1.75) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask)
       (net 74 "Net-(R3-Pad1)"))
-    (pad 11 smd rect (at -4.35 2.25) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask))
-    (pad 12 smd rect (at -4.35 2.75) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask))
-    (pad 13 smd rect (at -2.75 4.35 90) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask))
+    (pad 11 smd rect (at -4.35 2.25) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask)
+      (net 129 "Net-(U2-Pad11)"))
+    (pad 12 smd rect (at -4.35 2.75) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask)
+      (net 130 "Net-(U2-Pad12)"))
+    (pad 13 smd rect (at -2.75 4.35 90) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask)
+      (net 131 "Net-(U2-Pad13)"))
     (pad 14 smd rect (at -2.25 4.35 90) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask)
       (net 75 "Net-(R4-Pad1)"))
     (pad 15 smd rect (at -1.75 4.35 90) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask)
       (net 66 /Debugger/PIO0_4))
     (pad 16 smd rect (at -1.25 4.35 90) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask)
       (net 67 /Debugger/PIO0_5))
-    (pad 17 smd rect (at -0.75 4.35 90) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask))
-    (pad 18 smd rect (at -0.25 4.35 90) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask))
+    (pad 17 smd rect (at -0.75 4.35 90) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask)
+      (net 132 "Net-(U2-Pad17)"))
+    (pad 18 smd rect (at -0.25 4.35 90) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask)
+      (net 133 "Net-(U2-Pad18)"))
     (pad 19 smd rect (at 0.25 4.35 90) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask)
       (net 77 "Net-(R10-Pad2)"))
     (pad 20 smd rect (at 0.75 4.35 90) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask)
@@ -2227,43 +2376,57 @@
       (net 59 /Debugger/~USB_CONNECT~))
     (pad 23 smd rect (at 2.25 4.35 90) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask)
       (net 78 "/Target CPU/SWCLK"))
-    (pad 24 smd rect (at 2.75 4.35 90) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask))
-    (pad 25 smd rect (at 4.35 2.75) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask))
-    (pad 26 smd rect (at 4.35 2.25) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask))
+    (pad 24 smd rect (at 2.75 4.35 90) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask)
+      (net 134 "Net-(U2-Pad24)"))
+    (pad 25 smd rect (at 4.35 2.75) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask)
+      (net 135 "Net-(U2-Pad25)"))
+    (pad 26 smd rect (at 4.35 2.25) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask)
+      (net 136 "Net-(U2-Pad26)"))
     (pad 27 smd rect (at 4.35 1.75) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask)
       (net 79 "/Target CPU/SWDIO"))
     (pad 28 smd rect (at 4.35 1.25) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask)
       (net 87 "/Target CPU/SWO/TDO"))
     (pad 29 smd rect (at 4.35 0.75) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask)
       (net 84 /Debugger/DBG_SWCLK))
-    (pad 30 smd rect (at 4.35 0.25) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask))
-    (pad 31 smd rect (at 4.35 -0.25) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask))
+    (pad 30 smd rect (at 4.35 0.25) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask)
+      (net 137 "Net-(U2-Pad30)"))
+    (pad 31 smd rect (at 4.35 -0.25) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask)
+      (net 138 "Net-(U2-Pad31)"))
     (pad 32 smd rect (at 4.35 -0.75) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask)
       (net 68 /Debugger/PIO0_11))
-    (pad 33 smd rect (at 4.35 -1.25) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask))
-    (pad 34 smd rect (at 4.35 -1.75) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask))
-    (pad 35 smd rect (at 4.35 -2.25) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask))
+    (pad 33 smd rect (at 4.35 -1.25) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask)
+      (net 139 "Net-(U2-Pad33)"))
+    (pad 34 smd rect (at 4.35 -1.75) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask)
+      (net 140 "Net-(U2-Pad34)"))
+    (pad 35 smd rect (at 4.35 -2.25) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask)
+      (net 141 "Net-(U2-Pad35)"))
     (pad 36 smd rect (at 4.35 -2.75) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask)
       (net 69 /Debugger/PIO1_13))
     (pad 37 smd rect (at 2.75 -4.35 90) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask)
       (net 70 /Debugger/PIO1_14))
-    (pad 38 smd rect (at 2.25 -4.35 90) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask))
+    (pad 38 smd rect (at 2.25 -4.35 90) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask)
+      (net 142 "Net-(U2-Pad38)"))
     (pad 39 smd rect (at 1.75 -4.35 90) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask)
       (net 83 /Debugger/DBG_SWDIO))
-    (pad 40 smd rect (at 1.25 -4.35 90) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask))
+    (pad 40 smd rect (at 1.25 -4.35 90) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask)
+      (net 143 "Net-(U2-Pad40)"))
     (pad 41 smd rect (at 0.75 -4.35 90) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (pad 42 smd rect (at 0.25 -4.35 90) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask))
-    (pad 43 smd rect (at -0.25 -4.35 90) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask))
+    (pad 42 smd rect (at 0.25 -4.35 90) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask)
+      (net 144 "Net-(U2-Pad42)"))
+    (pad 43 smd rect (at -0.25 -4.35 90) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask)
+      (net 145 "Net-(U2-Pad43)"))
     (pad 44 smd rect (at -0.75 -4.35 90) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask)
       (net 3 +3V3))
-    (pad 45 smd rect (at -1.25 -4.35 90) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask))
+    (pad 45 smd rect (at -1.25 -4.35 90) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask)
+      (net 146 /Debugger/TGT_TDI))
     (pad 46 smd rect (at -1.75 -4.35 90) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask)
       (net 88 /Debugger/TGT_TXD))
     (pad 47 smd rect (at -2.25 -4.35 90) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask)
       (net 56 "/Target CPU/RXD"))
-    (pad 48 smd rect (at -2.75 -4.35 90) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask))
-    (model Housings_QFP.3dshapes/LQFP-48_7x7mm_Pitch0.5mm.wrl
+    (pad 48 smd rect (at -2.75 -4.35 90) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask)
+      (net 147 "Net-(U2-Pad48)"))
+    (model F:/Hardware/PCB/pico/footprints/packages3d/LQFP-48_0.5mm.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2292,7 +2455,7 @@
       (net 1 GND))
     (pad 1 smd rect (at -1.31 0) (size 1.8 1.23) (layers B.Cu B.Paste B.Mask)
       (net 89 /VBUS))
-    (model Capacitors_Tantalum_SMD.3dshapes/TantalC_SizeA_EIA-3216_Reflow.wrl
+    (model F:/Hardware/PCB/pico/footprints/packages3d/C_Tantalio_CaseA.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -2326,7 +2489,7 @@
       (net 3 +3V3))
     (pad 3 thru_hole circle (at 0 4 270) (size 1.35 1.35) (drill 0.8) (layers *.Cu *.Mask)
       (net 12 /PCIe_3.3V))
-    (model Pin_Headers.3dshapes/Pin_Header_Straight_1x03_Pitch2.00mm.wrl
+    (model F:/Hardware/PCB/pico/footprints/packages3d/Pin_Header_1x3_2mm.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2397,7 +2560,7 @@
       (net 43 "/Target CPU/P1_14"))
     (pad 20 thru_hole circle (at 2 18 270) (size 1.35 1.35) (drill 0.8) (layers *.Cu *.Mask)
       (net 63 "/Target CPU/P0_19"))
-    (model Pin_Headers.3dshapes/Pin_Header_Straight_2x10_Pitch2.00mm.wrl
+    (model F:/Hardware/PCB/pico/footprints/packages3d/Pin_Header_2x10_2mm.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2440,7 +2603,7 @@
       (net 68 /Debugger/PIO0_11))
     (pad 6 thru_hole circle (at 2 4) (size 1.35 1.35) (drill 0.8) (layers *.Cu *.Mask)
       (net 71 /Debugger/PIO1_24))
-    (model Pin_Headers.3dshapes/Pin_Header_Straight_2x03_Pitch2.00mm.wrl
+    (model F:/Hardware/PCB/pico/footprints/packages3d/Pin_Header_2X3_2mm.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2469,7 +2632,7 @@
       (net 3 +3V3))
     (pad 2 smd rect (at 0.75 0 180) (size 0.5 0.9) (layers F.Cu F.Paste F.Mask)
       (net 83 /Debugger/DBG_SWDIO))
-    (model Resistors_SMD.3dshapes/R_0603.wrl
+    (model F:/Hardware/PCB/pico/footprints/packages3d/R_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2498,7 +2661,7 @@
       (net 84 /Debugger/DBG_SWCLK))
     (pad 2 smd rect (at 0.75 0) (size 0.5 0.9) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model Resistors_SMD.3dshapes/R_0603.wrl
+    (model F:/Hardware/PCB/pico/footprints/packages3d/R_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2527,7 +2690,7 @@
       (net 3 +3V3))
     (pad 2 smd rect (at 0.75 0 180) (size 0.5 0.9) (layers F.Cu F.Paste F.Mask)
       (net 85 /Debugger/DBG_~RST~))
-    (model Resistors_SMD.3dshapes/R_0603.wrl
+    (model F:/Hardware/PCB/pico/footprints/packages3d/R_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2556,7 +2719,7 @@
       (net 67 /Debugger/PIO0_5))
     (pad 2 smd rect (at 0.75 0 270) (size 0.5 0.9) (layers B.Cu B.Paste B.Mask)
       (net 3 +3V3))
-    (model Resistors_SMD.3dshapes/R_0603.wrl
+    (model F:/Hardware/PCB/pico/footprints/packages3d/R_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2585,7 +2748,7 @@
       (net 66 /Debugger/PIO0_4))
     (pad 2 smd rect (at 0.75 0 270) (size 0.5 0.9) (layers B.Cu B.Paste B.Mask)
       (net 3 +3V3))
-    (model Resistors_SMD.3dshapes/R_0603.wrl
+    (model F:/Hardware/PCB/pico/footprints/packages3d/R_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2614,7 +2777,7 @@
       (net 85 /Debugger/DBG_~RST~))
     (pad 2 smd rect (at 0.75 0) (size 0.8 0.75) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_0603.wrl
+    (model F:/Hardware/PCB/pico/footprints/packages3d/C_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
