@@ -3,35 +3,6 @@ LIBS:CIAA_ACC
 LIBS:XC7Z030_FBG676
 LIBS:DDR3_x16
 LIBS:FMC_HPC
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
 LIBS:ciaa_acc-cache
 EELAYER 25 0
 EELAYER END
@@ -57,9 +28,9 @@ F 0 "J5" H 4800 8600 60  0000 L CNN
 F 1 "FMC_HPC" H 6100 8550 60  0000 L CNN
 F 2 "samtec:ASP-134486-01" H 5650 4400 60  0001 C CNN
 F 3 "" H 5650 4400 60  0000 C CNN
-F 4 "FMC HPC" H 5650 4400 60  0001 C CNN "Descripcion"
-F 5 "Samtec" H 5650 4400 60  0001 C CNN "Fabricante"
-F 6 "ASP-134486-01" H 5650 4400 60  0001 C CNN "Nro. parte"
+F 4 "FMC HPC" H 5650 4400 60  0001 C CNN "Desc"
+F 5 "Samtec" H 5650 4400 60  0001 C CNN "Manf"
+F 6 "ASP-134486-01" H 5650 4400 60  0001 C CNN "Manf#"
 F 7 "ASP-134485-01" H 5650 4400 60  0001 C CNN "Reemplazo"
 	5    5650 4400
 	0    -1   -1   0   
@@ -74,9 +45,9 @@ F 0 "J5" H 1650 2200 60  0000 C CNN
 F 1 "FMC_HPC" H 3150 2200 60  0000 C CNN
 F 2 "samtec:ASP-134486-01" H 2450 1650 60  0001 C CNN
 F 3 "" H 2450 1650 60  0000 C CNN
-F 4 "FMC HPC" H 2450 1650 60  0001 C CNN "Descripcion"
-F 5 "Samtec" H 2450 1650 60  0001 C CNN "Fabricante"
-F 6 "ASP-134486-01" H 2450 1650 60  0001 C CNN "Nro. parte"
+F 4 "FMC HPC" H 2450 1650 60  0001 C CNN "Desc"
+F 5 "Samtec" H 2450 1650 60  0001 C CNN "Manf"
+F 6 "ASP-134486-01" H 2450 1650 60  0001 C CNN "Manf#"
 F 7 "ASP-134485-01" H 2450 1650 60  0001 C CNN "Reemplazo"
 	7    2450 1650
 	1    0    0    -1  

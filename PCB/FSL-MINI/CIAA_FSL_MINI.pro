@@ -1,4 +1,4 @@
-update=lun 13 jun 2016 21:06:10 ART
+update=lun 17 abr 2017 19:51:24 ART
 version=1
 last_client=kicad
 [cvpcb]
@@ -34,8 +34,4 @@ LibName1=CIAAFSL
 version=1
 LibDir=kicadlibs
 [eeschema/libraries]
-LibName1=kicadlibs/TXB0108
-LibName2=CIAAK60LIB
-LibName3=conn
-LibName4=kicadlibs/shield_arduino
-LibName5=device
+LibName1=conn
